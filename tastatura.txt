@@ -5,7 +5,7 @@ Dani 3.6
 X 0.2
 Veronica 1
 Alex 2
-Lester 4
+Lester 30.3
 Gabriel 0
 Anton 0
 

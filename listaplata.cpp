@@ -1,4 +1,5 @@
 #include "listaplata.h"
+#include <string>
 int lista_plata::cautareLocatar(std::string NumeLocatar)
 {
 	for (int i = 0; i < lista_locatari.size(); i++)
@@ -18,7 +19,7 @@ std::string lista_plata::completare(std::string sir_initial, int nr_max_caracter
 	std::string temp = "";
 	for (int j = sir_initial.size(); j < nr_max_caractere; j++)
 		temp += " ";
-	return sir_initial + temp;
+	return temp+sir_initial;
 }
 
 
@@ -88,19 +89,26 @@ std::ostream& operator<<(std::ostream& os, lista_plata& LP)
 	{
 		if (i == 0)
 		{
-			std::string sir = "[] nume\t Vol_ApaR\tSold\t";
+			std::string sir = LP.completare("\t[]\t nume\t",MaxChrSize)+LP.completare("Vol_ApaR\t",MaxChrSize)+LP.completare("Sold\t",MaxChrSize);
 			for (int j = 1; j < nr_fac; j++)
 				sir += LP.completare(LP.Facturi[j].get_nume(), MaxChrSize) + '\t';
 			std::cout << sir << "Total\n";
 		}
-		std::cout << i << ": ";
-		std::cout << LP.completare(LP.lista_locatari[i].get_nume(), MaxChrSize) << '\t';
-		std::cout << LP.lista_locatari[i].get_v() << '\t';
+		std::cout << i+1 << ": ";
+		std::cout << LP.completare(LP.lista_locatari[i].get_nume(),MaxChrSize) << '\t';
+		std::string alt_sir = std::to_string(std::ceil(LP.lista_locatari[i].get_v() * 100.0) / 100.0 );
+		std::cout << LP.completare(alt_sir.erase(alt_sir.find_last_not_of('0')+2, std::string::npos),MaxChrSize) << '\t';
 		for (int j = 0; j < nr_fac; j++)
 			if (j == 0)
-				std::cout << LP.lista_locatari[i].get_v() * LP.Facturi[0].get_cantitate() << '\t';
+			{
+				alt_sir = std::to_string(std::ceil(LP.lista_locatari[i].get_v() * LP.Facturi[0].get_cantitate() * 100.0) / 100.0);
+				std::cout << LP.completare(alt_sir.erase(alt_sir.find_last_not_of('0') + 2, std::string::npos), MaxChrSize) << '\t';
+			}
 			else
-				std::cout << LP.Facturi[j].get_numerar() / nr_loc << '\t';
+			{
+				alt_sir = std::to_string(std::ceil(LP.Facturi[j].get_numerar() / nr_loc*100)/100);
+				std::cout << LP.completare(alt_sir.erase(alt_sir.find_last_not_of('0') + 2, std::string::npos), MaxChrSize)<< '\t';
+			}
 		std::cout << LP.Total[i] << '\n';
 	}
 	return os;
