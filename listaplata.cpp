@@ -1,4 +1,4 @@
-#include "listaplata.h"
+#include "include\listaplata.h"
 #include <string>
 int lista_plata::cautareLocatar(std::string NumeLocatar)
 {

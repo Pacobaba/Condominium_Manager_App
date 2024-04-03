@@ -1,4 +1,4 @@
-#include "locatar.h"
+#include "include\locatar.h"
 
 locatar::locatar(std::string _nume, int _nrAp, float _v_apa)
 {

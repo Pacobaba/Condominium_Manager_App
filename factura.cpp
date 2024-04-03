@@ -1,4 +1,4 @@
-#include "factura.h"
+#include "include\factura.h"
 
 factura::factura(std::string _nume, float val, std::string bon)
 {
