@@ -127,6 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="factura.cpp" />
+    <ClCompile Include="listaplata.cpp" />
+    <ClCompile Include="locatar.cpp" />
     <ClCompile Include="Proiect1.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +139,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tastatura.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

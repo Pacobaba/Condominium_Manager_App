@@ -1,0 +1,41 @@
+Bob 3
+Ion 2
+Alina 5
+Dani 3.6
+X 0.2
+Veronica 1
+Alex 2
+Lester 4
+Gabriel 0
+Anton 0
+
+Corina 3
+Elena 10.3
+Andrei 2
+POO 1
+OOP 2
+Peste 3.4
+Pasare 5.6
+Vrabie 3.1
+Bob2 3.5
+Pat 10
+
+Y
+2
+
+5
+10
+
+8.2
+9.3
+
+10
+2
+
+Fond_de_reparatii
+100
+0
+
+Administrative
+10
+3

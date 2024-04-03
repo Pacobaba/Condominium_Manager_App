@@ -1,9 +1,2 @@
 ﻿  Proiect1.cpp
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.h(36,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.h(49,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.h(73,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.h(89,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.h(98,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.h(101,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.h(102,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Proiect1.vcxproj -> C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\x64\Debug\Proiect1.exe
