@@ -20,6 +20,11 @@ Vrabie 3.1
 Bob2 3.5
 Pat 10
 
+
+2
+Soo 10 Coordonator
+Bob 30 Sef
+
 Y
 2
 

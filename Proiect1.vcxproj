@@ -131,15 +131,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="factura.cpp" />
-    <ClCompile Include="listaplata.cpp" />
-    <ClCompile Include="locatar.cpp" />
     <ClCompile Include="Proiect1.cpp" />
+    <ClCompile Include="src\angajat.cpp" />
+    <ClCompile Include="src\factura.cpp" />
+    <ClCompile Include="src\listaplata.cpp" />
+    <ClCompile Include="src\locatar.cpp" />
+    <ClCompile Include="src\persoana.cpp" />
+    <ClCompile Include="src\ProgAsoc.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="factura.h" />
-    <ClInclude Include="listaplata.h" />
-    <ClInclude Include="locatar.h" />
+    <ClInclude Include="include\angajat.h" />
+    <ClInclude Include="include\factura.h" />
+    <ClInclude Include="include\listaplata.h" />
+    <ClInclude Include="include\locatar.h" />
+    <ClInclude Include="include\persoana.h" />
+    <ClInclude Include="include\ProgAsoc.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="tastatura.txt" />

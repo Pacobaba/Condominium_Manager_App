@@ -2,10 +2,10 @@
 #ifndef LOCATAR
 #define LOCATAR
 #include <iostream>
+#include "persoana.h"
 
-class locatar{
+class locatar: public persoana{
 private:
-	std::string nume;
 	int nrApartament;
 	float v_aparece;
 public:
@@ -14,6 +14,7 @@ public:
 	friend std::istream& operator>>(std::istream& is, locatar& loc);
 	friend std::ostream& operator<<(std::ostream& os, locatar& loc);
 	float get_v();
-	std::string get_nume();
+	void test();
+	void modificare();
 };
 #endif

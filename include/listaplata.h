@@ -3,26 +3,28 @@
 #define LISTAPLATA
 #include <iostream>
 #include <vector>
-#include "include\factura.h"
-#include "include\locatar.h"
+#include "factura.h"
+#include "locatar.h"
+#include "angajat.h"
 
-#define nr_ap 20
-
-class lista_plata {
+class lista_plata{
 private:
+	static const int nr_ap;
 	std::vector<locatar> lista_locatari;
+	std::vector<angajat> lista_angajati;
 	std::vector<factura> Facturi;
 	std::vector<float> Total;
-	int cautareLocatar(std::string NumeLocatar);
-	int cautareFactura(std::string NumeFactura);
+	int cautare(std::string DinCe, std::string Nume);
 	std::string completare(std::string sir_initial, int nr_max_caractere);
+	int listaString(std::string X);
 public:
-	lista_plata(std::vector<locatar> listaloc = {}, std::vector<factura> Fact = {});
+	lista_plata(std::vector<locatar> listaloc = {}, std::vector<angajat> listaang = {}, std::vector<factura> Fact = {});
 	friend std::istream& operator>>(std::istream& is, lista_plata& LP);
 	friend std::ostream& operator<<(std::ostream& os, lista_plata& LP);
-	void operator>(std::string NumeLocatar);
+	void afisareAngajati();
+	void adaugareAngajat(angajat angTemp);
+	void modificare(std::string Ce, std::string Nume);
 	void calcul_lista_plata();
-	void stergereLocatar(std::string NumeLocatar);
-	void stergereFactura(std::string NumeFactura);
+	void stergere(std::string DinCe, std::string Nume);
 };
 #endif

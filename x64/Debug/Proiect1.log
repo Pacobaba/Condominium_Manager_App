@@ -1,16 +1,3 @@
-﻿  factura.cpp
-  listaplata.cpp
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.cpp(20,2): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.cpp(43,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.cpp(56,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.cpp(83,55): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.cpp(86,48): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.cpp(87,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.cpp(87,67): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.cpp(124,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.cpp(124,61): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  locatar.cpp
-  Generating Code...
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.cpp(15): warning C4715: 'lista_plata::cautareFactura': not all control paths return a value
-C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\listaplata.cpp(8): warning C4715: 'lista_plata::cautareLocatar': not all control paths return a value
+﻿  ProgAsoc.cpp
+C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\src\ProgAsoc.cpp(100,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   Proiect1.vcxproj -> C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect1\x64\Debug\Proiect1.exe

@@ -18,24 +18,42 @@
     <ClCompile Include="Proiect1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="locatar.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\factura.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="factura.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\listaplata.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="listaplata.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\locatar.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\persoana.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\angajat.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ProgAsoc.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="locatar.h">
+    <ClInclude Include="include\persoana.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="listaplata.h">
+    <ClInclude Include="include\angajat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="factura.h">
+    <ClInclude Include="include\locatar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\factura.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\listaplata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgAsoc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
